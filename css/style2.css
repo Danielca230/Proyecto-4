@@ -1,0 +1,89 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:url('https://www.pmgchile.com/wp-content/uploads/2018/08/shutterstock_710141932baja.jpg') no-repeat center center/cover;
+    height: 700px;
+}
+
+h1,h2,h3,p{
+     padding-bottom: 20px;
+}
+.bar{
+    margin:0px;
+    padding: 0;
+    background:rgb(5, 61, 134);
+    overflow:auto;
+    color:rgb(185, 102, 34);
+    
+    }
+    .bar h1{
+        float: left;
+        padding:5px;
+    }
+    
+    .bar ul{
+        list-style:none;
+        float:right;
+    }
+    .bar ul li{
+        float:left;
+    }
+    
+    .bar ul li a{
+        color:rgb(185, 102, 34);
+        display: block;
+        padding: 15px;
+        text-align: center;
+    }
+    .bar a:hover{
+        background-color: rgb(185, 102, 34);
+        box-sizing: border-box;
+        color: rgb(5, 61, 134);
+
+    }
+    *{
+        margin: 0;
+        padding:0;
+        }
+.seccion2{
+    float: right;
+    margin: 10px;
+width: 40%;
+height: 80%;
+text-align: center;
+}
+#colorB{
+    color:#fff
+}
+
+#box1{
+background: rgb(5, 61, 134);
+width: 60%;
+height: auto;
+padding: 0px;
+margin: 10px;
+}
+
+#box1 h2, h3{
+    color:#fff;
+
+}
+
+.botton{
+    margin: 0px;
+    background-color: rgb(185, 102, 34);
+    padding: 10px;
+    color: #fff;
+}
+.botton:hover{
+    background-color:rgb(17, 106, 223);
+}
+.botton li{
+    list-style: none;
+}
+
+#colorb{
+    color:#fff;
+}
+#colorna{
+   color: rgb(185, 102, 34);
+}
